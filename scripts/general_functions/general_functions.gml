@@ -22,6 +22,8 @@ function obter_inputs()
 	esquerda = keyboard_check(ord("A")) + keyboard_check(vk_left);
 	esquerda = clamp(esquerda, 0, 1);
 	
+	//inputs de ataque
+	atk1 = mouse_check_button_pressed(mb_left);
 	
 	
 	//inputs de ação

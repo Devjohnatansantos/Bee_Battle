@@ -36,6 +36,7 @@
     {"id":{"name":"peido","path":"scripts/peido/peido.yy",},},
     {"id":{"name":"Parede_inimgo","path":"sprites/Parede_inimgo/Parede_inimgo.yy",},},
     {"id":{"name":"spr_inimigo","path":"sprites/spr_inimigo/spr_inimigo.yy",},},
+    {"id":{"name":"spr_player_atk1","path":"sprites/spr_player_atk1/spr_player_atk1.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
   ],

@@ -1,3 +1,4 @@
+timer_atk1--;
 
 if(tutorial_1 == true)
 {
@@ -130,6 +131,7 @@ else
 
 y += yspd;
 
+//piscando o player quando tomar dano
 if (alarm[0] > 0)
 {
 	if (image_alpha >= 1)
@@ -146,6 +148,8 @@ else
 {
 		image_alpha = 1;
 }
+
+
 
 
 

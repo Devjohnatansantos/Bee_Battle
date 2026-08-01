@@ -31,5 +31,8 @@ global.peidos = 3;
 alarm[0] = 0;
 alpha_hit = 0;
 
+// 
+timer_atk1 = 0;
+
 
 
