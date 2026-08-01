@@ -34,5 +34,5 @@
     "path":"sprites/Parede_inimgo/Parede_inimgo.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
