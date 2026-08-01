@@ -24,3 +24,11 @@ on_ground = true;
 //peido
 tutorial_1 = true;
 global.peidos = 3;
+
+
+//vida
+alarm[0] = 0;
+alpha_hit = 0;
+
+
+
