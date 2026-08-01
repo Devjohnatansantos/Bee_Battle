@@ -18,7 +18,7 @@ timer_segura_pulo = 0;
 frames_segura_pulo[0] = 15;
 jspd[0] = -3;
 frames_segura_pulo[1] = 10;
-jspd[1] = -2.50;
+jspd[1] = -3.50;
 on_ground = true;
 
 global.peidos = 1;

@@ -64,11 +64,18 @@ if (pulo_buffered && contador_pulos < pulo_max)
 {
 	pulo_buffered = false;
 	pulo_buffer_timer = 0;
-	global.peidos -= 1;
+	
 	
 	contador_pulos++;
 	
+	
 	timer_segura_pulo = frames_segura_pulo[contador_pulos-1];
+	
+	if(contador_pulos >= 2)
+	{
+		global.peidos -= 1;
+	}
+	
 }
 
 if (!pulo)
