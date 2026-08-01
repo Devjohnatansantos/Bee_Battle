@@ -1,11 +1,17 @@
+
+if(tutorial_1 == true)
+{
 // setando pulo max
+// se tenho peido carregado posso dar double jump
 if (global.peidos >= 1)
 {
 	pulo_max = 2;
 }
 else
 {
+	// senão apenas um pulo
 	pulo_max = 1;	
+}
 }
 // obtendo os inputs
 obter_inputs();

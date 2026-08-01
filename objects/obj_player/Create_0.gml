@@ -21,4 +21,6 @@ frames_segura_pulo[1] = 10;
 jspd[1] = -3.50;
 on_ground = true;
 
-global.peidos = 1;
+//peido
+tutorial_1 = true;
+global.peidos = 3;
