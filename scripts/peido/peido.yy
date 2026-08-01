@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"peido",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"peido",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

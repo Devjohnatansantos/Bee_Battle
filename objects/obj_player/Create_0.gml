@@ -12,7 +12,7 @@ grav = .275;
 termvel = 4;
 // Velocidade do pulo
 
-pulo_max = 2;
+pulo_max = 1;
 contador_pulos = 0;
 timer_segura_pulo = 0;
 frames_segura_pulo[0] = 15;
