@@ -63,7 +63,7 @@
     },
     "name":"spr_lingua",
     "playback":1,
-    "playbackSpeed":12.0,
+    "playbackSpeed":8.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -102,5 +102,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":32,
+  "width":100,
 }
