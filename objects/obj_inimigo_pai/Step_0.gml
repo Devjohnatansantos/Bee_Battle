@@ -9,3 +9,12 @@ if (place_meeting(x, y, obj_parede_inimigo))
 		direc = 0;
 	}
 }
+
+if (direc == 0)
+{
+	x += veloc;	
+}
+if(direc == 1)
+{
+	x -= veloc;
+}
