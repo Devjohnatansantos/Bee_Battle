@@ -142,6 +142,10 @@ if (alarm[0] > 0)
 	}
 	image_alpha += alpha_hit;
 }
+else
+{
+		image_alpha = 1;
+}
 
 
 

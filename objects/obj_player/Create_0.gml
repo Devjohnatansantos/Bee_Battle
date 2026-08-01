@@ -5,6 +5,7 @@ move_dir = 0;
 movespd = 3.123;
 xspd = 0;
 yspd = 0;
+vida = 3;
 
 // Váriaveis de pulo
 grav = .275;
