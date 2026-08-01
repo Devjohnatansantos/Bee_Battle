@@ -1,3 +1,12 @@
+// setando pulo max
+if (global.peidos >= 1)
+{
+	pulo_max = 2;
+}
+else
+{
+	pulo_max = 1;	
+}
 // obtendo os inputs
 obter_inputs();
 
@@ -55,6 +64,7 @@ if (pulo_buffered && contador_pulos < pulo_max)
 {
 	pulo_buffered = false;
 	pulo_buffer_timer = 0;
+	global.peidos -= 1;
 	
 	contador_pulos++;
 	
