@@ -153,11 +153,7 @@ else
 
 if (atk1)
 {
-    var lingua = instance_create_layer(x, y - 5, layer, obj_lingua);
 
-
-    lingua.dono = id;
-    lingua.dir = image_xscale;
 }
 
 
