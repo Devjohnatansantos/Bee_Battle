@@ -6,3 +6,13 @@ else
 {
 	sprite_index = -1;
 }
+
+with(obj_player)
+{
+	desce = keyboard_check_pressed(ord("S"))
+	
+	if (desce)
+	{
+		other.sprite_index = -1;
+	}
+}
