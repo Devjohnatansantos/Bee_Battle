@@ -6,7 +6,7 @@ velh = (dire - esq) * vel;
 velv = velv + gravidade;
 
 
-if(place_meeting(x + sign(velh), y, obj_wall))
+if(place_meeting(x + velh, y, obj_wall))
 {
 	while(!place_meeting(x + sign(velh), y, obj_wall))
 	{

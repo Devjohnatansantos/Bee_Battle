@@ -27,6 +27,7 @@
   "name":"Poop Pig Run",
   "resources":[
     {"id":{"name":"Bee_pai","path":"objects/Bee_pai/Bee_pai.yy",},},
+    {"id":{"name":"geracao_procedural","path":"objects/geracao_procedural/geracao_procedural.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_inimigo_pai","path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},},
     {"id":{"name":"obj_oneway","path":"objects/obj_oneway/obj_oneway.yy",},},
