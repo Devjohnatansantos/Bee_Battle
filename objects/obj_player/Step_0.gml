@@ -1,146 +1,35 @@
-timer_atk1--;
+dire = keyboard_check(ord("D"))
+esq = keyboard_check(ord("A"))
+pulo = keyboard_check(vk_space);
+
+velh = (dire - esq) * vel;
+velv = velv + gravidade;
 
 
-
-// obtendo os inputs
-obter_inputs();
-
-// movimentação horizontal
-move_dir = direita - esquerda;
-
-xspd = move_dir * movespd;
-
-// colisão horizontal
-// essa variável é o quão perto o player pode chegar da parade
-var _subpixel = .5;
-
-if(place_meeting(x + xspd, y, obj_wall))
+if(place_meeting(x + sign(velh), y, obj_wall))
 {
-	// se aproximando precisamente até a parede
-	var _pixel_check = _subpixel * sign(xspd);
-	while !place_meeting(x + _pixel_check, y, obj_wall)
+	while(!place_meeting(x + sign(velh), y, obj_wall))
 	{
-		x += _pixel_check;
-		
+		x = x + sign(velh);
 	}
-	
-	xspd = 0;	
-	
+	velh = 0;
+
 }
 
-x += xspd;
+x =  x + velh
 
-
-// movimentação vertical
-// gravidade
-yspd += grav;
-
-if (on_ground)
+if(place_meeting(x, y + sign(velv), obj_wall))
 {
-	contador_pulos = 0;
-	timer_segura_pulo = 0;
-}
-else
-{
-	if(contador_pulos == 0)
+	while(!place_meeting(x, y + sign(velv), obj_wall))
 	{
-		contador_pulos = 1;
+		y = y + sign(velv);
 	}
-}
-
-if (yspd > termvel)
-{
-	yspd = termvel;
-}
-
-// pulo
-
-if (pulo_buffered && contador_pulos < pulo_max)
-{
-	pulo_buffered = false;
-	pulo_buffer_timer = 0;
-	
-	
-	contador_pulos++;
-	
-	
-	timer_segura_pulo = frames_segura_pulo[contador_pulos-1];
-	
-	
+	velv = 0;
 	
 }
 
-if (!pulo)
-{
-	timer_segura_pulo = 0;
-}
+y = y + velv
 
-if (timer_segura_pulo > 0)
-{
-	yspd = jspd[contador_pulos-1];
-	
-	timer_segura_pulo--;
-	
-}
-
-
-//colisão
-
-var _subpixel = .5;
-if (place_meeting(x, y + yspd, obj_wall))
-{
-	var _pixel_check = _subpixel * sign(yspd);
-	while !place_meeting(x, y + _pixel_check, obj_wall)
-	{
-		if (yspd < 0)
-		{
-			timer_segura_pulo = 0;	
-		}
-		
-		y += _pixel_check;
-		
-		
-	}
-	
-	yspd = 0;
-}
-
-
-if (yspd >= 0 && place_meeting(x, y+1, obj_wall))
-{
-	on_ground = true;
-}
-else
-{
-	on_ground = false;
-}
-
-y += yspd;
-
-//piscando o player quando tomar dano
-if (alarm[0] > 0)
-{
-	if (image_alpha >= 1)
-	{
-		alpha_hit = -0.05
-	}
-	else if (image_alpha <= 0)
-	{
-		alpha_hit = 0.05;
-	}
-	image_alpha += alpha_hit;
-}
-else
-{
-		image_alpha = 1;
-}
-
-//atk1
-
-if (atk1)
-{
-
-}
 
 
 

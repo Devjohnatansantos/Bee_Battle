@@ -1,1 +1,1 @@
-oneway = true;
+sprite_index = -1
