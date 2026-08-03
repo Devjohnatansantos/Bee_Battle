@@ -43,7 +43,19 @@ if(pulo)
 
 
 
+if (invencivel)
+{
+    tempo_invencivel--;
 
+    // pisca a cada 5 frames
+    image_alpha = (tempo_invencivel div 5) mod 2;
+
+    if (tempo_invencivel <= 0)
+    {
+        invencivel = false;
+        image_alpha = 1;
+    }
+}
 
 
 
