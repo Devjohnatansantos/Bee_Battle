@@ -1,19 +1,7 @@
 timer_atk1--;
 
-if(tutorial_1 == true)
-{
-// setando pulo max
-// se tenho peido carregado posso dar double jump
-if (global.peidos >= 1)
-{
-	pulo_max = 2;
-}
-else
-{
-	// senão apenas um pulo
-	pulo_max = 1;	
-}
-}
+
+
 // obtendo os inputs
 obter_inputs();
 
@@ -78,10 +66,7 @@ if (pulo_buffered && contador_pulos < pulo_max)
 	
 	timer_segura_pulo = frames_segura_pulo[contador_pulos-1];
 	
-	if(contador_pulos >= 2)
-	{
-		global.peidos -= 1;
-	}
+	
 	
 }
 
@@ -119,6 +104,7 @@ if (place_meeting(x, y + yspd, obj_wall))
 	
 	yspd = 0;
 }
+
 
 if (yspd >= 0 && place_meeting(x, y+1, obj_wall))
 {

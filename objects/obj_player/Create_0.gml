@@ -6,6 +6,7 @@ movespd = 3.123;
 xspd = 0;
 yspd = 0;
 vida = 3;
+oneway = true;
 
 // Váriaveis de pulo
 grav = .275;
