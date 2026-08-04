@@ -54,3 +54,16 @@ switch(estado)
 		 estado = "perseguindo";
 	 }
 }
+
+if (place_meeting(x, y, Bee_pai))
+{
+    var inst = instance_place(x, y, Bee_pai);
+
+    if (inst != noone)
+    {
+        var dir = point_direction(inst.x, inst.y, x, y);
+
+        x += lengthdir_x(2, dir);
+        y += lengthdir_y(2, dir);
+    }
+}
