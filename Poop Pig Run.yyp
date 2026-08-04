@@ -26,6 +26,7 @@
   },
   "name":"Poop Pig Run",
   "resources":[
+    {"id":{"name":"Bee_filha","path":"objects/Bee_filha/Bee_filha.yy",},},
     {"id":{"name":"Bee_pai","path":"objects/Bee_pai/Bee_pai.yy",},},
     {"id":{"name":"geracao_procedural","path":"objects/geracao_procedural/geracao_procedural.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
@@ -40,6 +41,7 @@
     {"id":{"name":"Parede_inimgo","path":"sprites/Parede_inimgo/Parede_inimgo.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_bee","path":"sprites/spr_bee/spr_bee.yy",},},
+    {"id":{"name":"spr_beefilha","path":"sprites/spr_beefilha/spr_beefilha.yy",},},
     {"id":{"name":"spr_inimigo","path":"sprites/spr_inimigo/spr_inimigo.yy",},},
     {"id":{"name":"spr_lingua","path":"sprites/spr_lingua/spr_lingua.yy",},},
     {"id":{"name":"spr_player_walking","path":"sprites/spr_player_walking/spr_player_walking.yy",},},
