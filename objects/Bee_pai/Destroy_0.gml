@@ -1,5 +1,5 @@
 
-repeat(3)
+repeat(2)
 {
 randomize()
 var _x = irandom_range(0, 370);

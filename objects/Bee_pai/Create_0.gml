@@ -4,8 +4,9 @@ alvo = obj_player;
 
 estado = "perseguindo";
 
-velocidade_voo = 0.5;
-velocidade_investida = 2;
+randomize();
+velocidade_voo = random_range(0.2, 1.4);
+velocidade_investida = random_range(1.5, 2);
 
 distancia_ataque = 100;
 

@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_beefilha",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":7,
   "bbox_left":2,
   "bbox_right":9,
-  "bbox_top":0,
+  "bbox_top":3,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
