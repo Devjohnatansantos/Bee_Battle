@@ -37,7 +37,7 @@ if(pulo)
 {
 	if(estou_chao)
 	{
-	velv -=8;	
+	velv -=5;	
 	}
 }
 
@@ -57,6 +57,14 @@ if (invencivel)
     }
 }
 
+if (dire || esq)
+{
+	sprite_index = spr_player_walking;
+}
+else
+{
+		sprite_index = spr_player;
+}
 
 
 
