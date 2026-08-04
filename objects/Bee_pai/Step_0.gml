@@ -10,14 +10,14 @@ switch(estado)
     
     case "perseguindo":
 
-        // voa até o jogador
+        
         var dir = point_direction(x, y, alvo.x, alvo.y);
 
         x += lengthdir_x(velocidade_voo, dir);
         y += lengthdir_y(velocidade_voo, dir);
 
 
-        // chegou perto
+        
         if (dist < distancia_ataque)
         {
             direcao_investida = dir;
@@ -36,7 +36,7 @@ switch(estado)
 
         tempo_espera++;
 
-        // depois de um tempo para e volta
+        
         if (tempo_espera > 60)
         {
             tempo_espera = 0;
