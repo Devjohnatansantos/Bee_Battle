@@ -47,7 +47,7 @@ if (invencivel)
 {
     tempo_invencivel--;
 
-    // pisca a cada 5 frames
+    
     image_alpha = (tempo_invencivel div 5) mod 2;
 
     if (tempo_invencivel <= 0)
@@ -74,3 +74,4 @@ if (esq)
 {
 	image_xscale = -1;
 }
+

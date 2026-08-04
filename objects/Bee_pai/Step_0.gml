@@ -16,6 +16,18 @@ if (place_meeting(x, y, Bee_pai))
     }
 }
 
+if (place_meeting(x, y, Bee_filha))
+{
+    var inst = instance_place(x, y, Bee_filha);
+
+    if (inst != noone)
+    {
+        var dir = point_direction(inst.x, inst.y, x, y);
+
+        x += lengthdir_x(4, dir);
+        y += lengthdir_y(4, dir);
+    }
+}
 switch(estado)
 {
     
