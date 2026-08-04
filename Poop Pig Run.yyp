@@ -44,6 +44,7 @@
     {"id":{"name":"spr_beefilha","path":"sprites/spr_beefilha/spr_beefilha.yy",},},
     {"id":{"name":"spr_inimigo","path":"sprites/spr_inimigo/spr_inimigo.yy",},},
     {"id":{"name":"spr_lingua","path":"sprites/spr_lingua/spr_lingua.yy",},},
+    {"id":{"name":"spr_mel_atk","path":"sprites/spr_mel_atk/spr_mel_atk.yy",},},
     {"id":{"name":"spr_player_walking","path":"sprites/spr_player_walking/spr_player_walking.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
