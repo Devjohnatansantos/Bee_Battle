@@ -4,8 +4,8 @@ alvo = obj_player;
 
 estado = "perseguindo";
 
-velocidade_voo = 1;
-velocidade_investida = 3.5;
+velocidade_voo = 0.5;
+velocidade_investida = 2;
 
 distancia_ataque = 100;
 

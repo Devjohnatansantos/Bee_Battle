@@ -9,7 +9,7 @@ else
 
 with(obj_player)
 {
-	desce = keyboard_check_pressed(ord("S"))
+	desce = keyboard_check(ord("S"))
 	
 	if (desce)
 	{
