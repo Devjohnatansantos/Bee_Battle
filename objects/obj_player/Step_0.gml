@@ -66,5 +66,11 @@ else
 		sprite_index = spr_player;
 }
 
-
-
+if (dire)
+{
+	image_xscale = 1;
+}
+if (esq)
+{
+	image_xscale = -1;
+}
