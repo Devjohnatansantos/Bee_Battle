@@ -6,6 +6,9 @@ velh = (dire - esq) * vel;
 velv = velv + gravidade;
 timer_atk--;
 
+_retornar(1, .1)
+
+
 
 if(place_meeting(x + velh, y, obj_wall))
 {
@@ -38,7 +41,8 @@ if(pulo)
 {
 	if(estou_chao)
 	{
-	velv -=5;	
+		velv -=5;	
+		_mola(0.5, 2)
 	}
 }
 
@@ -69,11 +73,11 @@ else
 
 if (dire)
 {
-	image_xscale = 1;
+	lado = 1;
 }
 if (esq)
 {
-	image_xscale = -1;
+	lado = -1
 }
 
 if (mouse_check_button(mb_left) && timer_atk <= 0)

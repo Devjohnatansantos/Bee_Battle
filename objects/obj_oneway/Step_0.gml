@@ -9,10 +9,11 @@ else
 
 with(obj_player)
 {
-	desce = keyboard_check(ord("S"))
+	desce = keyboard_check_pressed(ord("S"))
 	
 	if (desce)
 	{
 		other.sprite_index = -1;
+		_mola(1, 0.5)
 	}
 }

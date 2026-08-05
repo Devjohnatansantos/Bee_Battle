@@ -9,5 +9,8 @@ vida = 3;
 timer_atk = 0;
 escala_x = 1;
 escala_y = 1;
+lado = 1;
+
+inicia_efeito_mola();
 
 
