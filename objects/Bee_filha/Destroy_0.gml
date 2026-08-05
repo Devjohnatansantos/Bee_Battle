@@ -1,3 +1,3 @@
 randomize()
 
-instance_create_layer(x, y, "Inimigos", Bee_filha2)
+instance_create_layer(x - 5, y + 10, "Inimigos", Bee_filha2)
