@@ -75,3 +75,12 @@ if (esq)
 	image_xscale = -1;
 }
 
+if (mouse_check_button_pressed(mb_left))
+{
+    var mel = instance_create_layer(x, y, "Instances", obj_mel);
+
+    mel.direction = point_direction(x, y, mouse_x, mouse_y);
+    mel.speed = 12;
+    mel.image_angle = mel.direction;
+}
+
