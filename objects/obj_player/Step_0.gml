@@ -4,6 +4,7 @@ pulo = keyboard_check_pressed(vk_space);
 
 velh = (dire - esq) * vel;
 velv = velv + gravidade;
+timer_atk--;
 
 
 if(place_meeting(x + velh, y, obj_wall))
@@ -75,12 +76,13 @@ if (esq)
 	image_xscale = -1;
 }
 
-if (mouse_check_button_pressed(mb_left))
+if (mouse_check_button(mb_left) && timer_atk <= 0)
 {
     var mel = instance_create_layer(x, y - 15, "Instances", obj_mel);
 
     mel.direction = point_direction(x, y - 15, mouse_x, mouse_y);
-    mel.speed = 3;
+    mel.speed = 4;
     mel.image_angle = mel.direction;
+	timer_atk = room_speed * 0.8;
 }
 

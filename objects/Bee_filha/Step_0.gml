@@ -71,13 +71,14 @@ switch(estado)
 	
 	 case "afastando":
 	 
-	 y--;
+	 y -= 0.8;
 	 
-	 if (y <=50)
+	 if (y <=30)
 	 {
 		 estado = "perseguindo";
 	 }
 }
+
 
 
 

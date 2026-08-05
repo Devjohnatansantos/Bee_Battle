@@ -12,3 +12,5 @@ distancia_ataque = 100;
 tempo_espera = 0;
 
 direcao_investida = 0;
+
+estado = "afastando"

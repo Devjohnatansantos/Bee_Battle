@@ -6,6 +6,7 @@ estou_chao = false;
 invencivel = false;
 tempo_invencivel = 0;
 vida = 3;
+timer_atk = 0;
 
 
 

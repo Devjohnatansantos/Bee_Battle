@@ -70,7 +70,7 @@ switch(estado)
 	
 	 case "afastando":
 	 
-	 y--;
+	 y-=0.5;
 	 
 	 if (y <=50)
 	 {
