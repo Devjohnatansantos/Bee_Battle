@@ -4,6 +4,6 @@ if (!alvo.invencivel)
 
     alvo.invencivel = true;
     alvo.tempo_invencivel = 120;
-	
+	screenshake(15)
 	instance_destroy();
 }

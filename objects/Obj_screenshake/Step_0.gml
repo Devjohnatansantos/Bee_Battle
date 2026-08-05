@@ -1,4 +1,4 @@
-if (treme > 0.1)
+if (treme >= 0.1)
 {
 	var _x = random_range(-treme, treme);
 	var _y = random_range(-treme, treme);
@@ -14,4 +14,4 @@ else
 	
 }
 
-treme = lerp(treme, 0.1, 0.02);
+treme = lerp(treme, 0, 0.02);
