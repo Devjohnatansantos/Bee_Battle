@@ -1,3 +1,4 @@
+save--;
 if (!instance_exists(alvo)) exit;
 
 

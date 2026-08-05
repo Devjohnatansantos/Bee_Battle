@@ -86,3 +86,9 @@ if (mouse_check_button(mb_left) && timer_atk <= 0)
 	timer_atk = room_speed * 0.8;
 }
 
+if(vida <= 0)
+{
+	room_restart();
+	
+}
+

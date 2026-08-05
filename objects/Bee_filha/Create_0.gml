@@ -1,4 +1,4 @@
-
+save = 60;
 alvo = obj_player;
 
 
