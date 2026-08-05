@@ -77,10 +77,10 @@ if (esq)
 
 if (mouse_check_button_pressed(mb_left))
 {
-    var mel = instance_create_layer(x, y, "Instances", obj_mel);
+    var mel = instance_create_layer(x, y - 15, "Instances", obj_mel);
 
-    mel.direction = point_direction(x, y, mouse_x, mouse_y);
-    mel.speed = 5;
+    mel.direction = point_direction(x, y - 15, mouse_x, mouse_y);
+    mel.speed = 3;
     mel.image_angle = mel.direction;
 }
 
