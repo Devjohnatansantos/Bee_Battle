@@ -83,6 +83,9 @@ if (esq)
 if (mouse_check_button(mb_left) && timer_atk <= 0)
 {
     var mel = instance_create_layer(x, y - 15, "Instances", obj_mel);
+	
+	
+	
 
     mel.direction = point_direction(x, y - 15, mouse_x, mouse_y);
     mel.speed = 4;
